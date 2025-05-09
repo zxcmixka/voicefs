@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react"
+import {Music}  from "./components/music/music.tsx"
 
-export const App = () => {
+function App() {
   return (
     <div>
-      <h1>Hello React/TS!</h1>
+     <Music/>
+     
     </div>
-  );
+  )
 }
+
+export default App
