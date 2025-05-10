@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/simple-peer": "^9.11.8",
+    "@types/socket.io": "^3.0.1",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
     "cra-template-typescript": "1.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "howler": "^2.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "simple-peer": "^9.11.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@types/node": "^22.15.16",
+    "@types/react": "^19.1.3"
   }
 }
