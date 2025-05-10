@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import YandexAuth from "../YandexAuth/YandexAuth.tsx"
+import {AddToPlaylist} from "../AddToPlaylist.tsx"
 
 
 export const Music = () => {
     
 
   return(
+    
     <div>
-      <head>
-   <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
-      </head>
-
+      
+      <button onClick={YandexAuth}>Auth from Yandex</button>
+      
     </div>
   )
    

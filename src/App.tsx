@@ -1,5 +1,6 @@
 import React from "react"
-import {Music}  from "./components/music/music.tsx"
+import {Music} from "./components/music/music.tsx"
+import {AddToPlaylist} from "./components/AddToPlaylist.tsx"
 
 function App() {
   return (
