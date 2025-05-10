@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/howler": "^2.2.12",
     "@types/node": "^22.15.16",
     "@types/react": "^19.1.3"
