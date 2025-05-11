@@ -30,7 +30,7 @@ app.get('/api/tracks', async (req, res) => {
       headers: {
         'Authorization': `OAuth ${accessToken}`
       },
-      timeout: 10000
+      timeout: 1000
     });
 
     // Форматирование ответа
