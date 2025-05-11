@@ -14,8 +14,8 @@ export const YandexAuth: React.FC<YandexAuthProps> = ({
 }) => {
   const handleAuth = () => {
     try {
-      // Ваша логика авторизации
-      const mockToken = "test_token_123"; // Замените реальной логикой
+      // логика авторизации
+      const mockToken = "y0__xCpqZ6WBBje-AYg6_H_iBMwwOymjAiVBKbXyfyG64sDif1nWoH0Ed-t_A";
       onSuccess(mockToken);
     } catch (err) {
       onError?.(err instanceof Error ? err.message : 'Auth failed');
@@ -25,7 +25,6 @@ export const YandexAuth: React.FC<YandexAuthProps> = ({
   return (
     <button 
       onClick={handleAuth}
-      className={className}
     >
       Войти через Яндекс
     </button>
